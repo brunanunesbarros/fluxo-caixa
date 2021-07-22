@@ -16,6 +16,17 @@ Esta projeto foi desenvolvido para praticar minhas habilidades em Javascript, e 
 - [JAVASCRIPT](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [JSON-SERVER](https://github.com/typicode/json-server)
 
+## ⚙️ Executando o projeto
+
+Como foi utilizado a biblioteca [JSON-SERVER](https://github.com/typicode/json-server) para ter uma API mockada é necessário inicar com o comando abaixo no diretório do projeto: 
+
+```bash
+json-server ./src/server.json --port 3333
+```
+
+Observação: para executar o comando acima é necessário que tenha instalado globalmente o JSON-SERVER na sua máquina.
+
+Em seguida abra o index.html no seu navegador. 
 
 ## 📈 O que eu aprendi
 
@@ -27,6 +38,6 @@ Reforcei conceitos de HTML, utilizei o pré-processador [SASS](https://sass-lang
  
  Absorvi outros conceitos não colocados em prática nesse projeto, porém posso dizer que gostei bastante de utilizar o SASS principalmente pelo fator de encadeamento, torna a leitura e escrita do código bem mais fluida e legível em comparação ao CSS tradicional, foi uma ótima experiência.
 
-No Javascript, treinei novamente o conceito de DOM, criação de objetos, funções, refatoração do código, o uso de alguns métodos como: toFixed(), toLocaleString(), toLocaleDateString, parseFloat(), que foram utilizadas para tratamento dos dados com relação ao formato, de data, moeda, notação. 
+No Javascript, treinei novamente o conceito de DOM, criação de objetos, funções, refatoração do código, o uso de alguns métodos como: toFixed(), toLocaleString(), toLocaleDateString(), parseFloat(), que foram utilizadas para tratamento dos dados com relação ao formato, de data, moeda, notação. 
 Por fim, utilizei o JSON-SERVER que é uma biblioteca capaz de criar uma API fake com dados mockados para que possamos trabalhar com as requisições, para realizá-las fiz uso do AXIOS que é um cliente HTTP para fazer requisições.
 
